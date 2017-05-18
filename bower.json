@@ -1,0 +1,17 @@
+{
+  "name": "ProjectOne",
+  "homepage": "https://github.com/CarlosVJ/ProjectOne",
+  "description": "Project",
+  "main": "",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.7"
+  }
+}
