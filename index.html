@@ -1,55 +1,105 @@
 <!DOCTYPE html>
 <html lang="en">
+<!-- head -->
 <head>
   <meta charset="UTF-8">
 
   <title>BOOTSTRAP</title>
+  <!-- links bootstrap & style -->
   <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css">
-  <link rel="stylesheet" href="bower_components/bootstrap/dist/css/style.css">
-</head>
-<body>
+  <link rel="stylesheet" href="bower_components/bootstrap/dist/css/style.css"> <!-- Hoja para los estilos-->
+</head><!-- cierre head-->
 
+<body>
+  <!-- container  -->
   <div class="container">
+
     <div class="row">
       <div class="col-sm-12">
         <h1>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi, soluta.</h1>
       </div>
     </div>
-  <div class="row">
-    <div class="col-sm-6 lead ">
 
-      <h2>Book Today</h2>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem ipsam id unde molestias saepe, ea autem esse iusto eveniet non?</p>
-      <button type=button>Take the Tour</button>
-      <button type=button> Book Ticjets Now!</button>
-    </div>
-    <div class="col-sm-6">
-      <img src="img/img1.png" alt="jgjy" class="img-responsive visible-md visible-lg">
-    </div>
-  </div>
-  <div class="row text-center features">
-    <div class="col-sm-4 col-xs-10 col-xs-offset-1 col-sm-offset-0">
-      <i class="glyphicon glyphicon-briefcase"></i>
-      <h3> Book Today!</h3>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo ipsam culpa reprehenderit dolores odit consectetur nesciunt laboriosam, quae, aperiam omnis?</p>
+
+    <!-- row -->
+    <div class="row">
+      <div class="col-sm-6 lead "> <!--clase lead para la tipografía-->
+        <h2>Book Today</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem ipsam id unde molestias saepe, ea autem esse iusto eveniet non?</p>
+        <button type=button class="btn btn-lg btn-default">Take the Tour</button>
+        <button type=button class="btn btn-lg btn-primary"> Book Ticjets Now!</button>
       </div>
-      <div class="col-sm-4 col-xs-6">
+
+      <div class="col-sm-6">
+        <img src="img/img1.png" alt="jgjy" class="img-responsive visible-md visible-lg">
+      </div>
+    </div> <!-- cierre row -->
+
+    <!--  div row features -->
+    <div class="row text-center features"> <!-- clase "features" para los íconos -->
+        <div class="col-sm-4 col-xs-10 col-xs-offset-1 col-sm-offset-0">
+        <i class="glyphicon glyphicon-briefcase"></i>
+        <h3> Book Today!</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo ipsam culpa reprehenderit dolores odit consectetur nesciunt laboriosam, quae, aperiam omnis?</p>
+        </div>
+
+        <div class="col-sm-4 col-xs-6">
         <i class="glyphicon glyphicon-plane"></i>
         <h3> Go Anywhere</h3>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo ipsam culpa reprehenderit dolores odit consectetur nesciunt laboriosam, quae, aperiam omnis?</p>
         </div>
 
-      <div class="col-sm-4 col-xs-6">
+        <div class="col-sm-4 col-xs-6">
         <i class="glyphicon glyphicon-send"></i>
         <h3> Rocketbus &reg;</h3>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo ipsam culpa reprehenderit dolores odit consectetur nesciunt laboriosam, quae, aperiam omnis?</p>
         </div>
+    </div>
+    <!-- cierre div row features -->
+
+  </div><!-- cierre container -->
+
+  <div class="footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-3 col-xs-6">
+          <h4>Who We Are</h4>
+          <p>Up and Running with Bootstrap</p>
+            <p><a href="#">More About Us<i class="glyphicon glyphicon-arrow-right"></i></a></p>
+        </div>
+        <div class="col-sm-3 col-xs-6">
+          <h4>Links</h4>
+          <ul>
+            <li> <a href="#">Home</a></li>
+            <li> <a href="#">Reservation</a></li>
+            <li> <a href="#">Classroom</a></li>
+          </ul>
+        </div>
+        <div class="col-sm-3 col-xs-6">
+          <h4>Stay in Touch</h4>
+          <ul>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Twitter</a></li>
+            <li><a href="#">Facebook</a></li>
+          </ul>
+        </div >
+        <div class="col-sm-3 col-xs-6">
+          <ul>
+            <li><i class="glyphicon glyphicon-globe"></i></li>
+            <li><i class="glyphicon glyphicon-phone-alt"></i></li>
+            <li><i class="glyphicon glyphicon-envelope"></i></li>
+          </ul>
+        </div>
       </div>
+      <!-- /.row -->
+    </div>
+    <!-- /.container -->
   </div>
-  </div>
-
-
+  <!-- /.footer -->
+  <!-- scripts para llamar a los jquerys y bootstrap -->
   <script src="bower_components/jquery/dist/jquery.js"></script>
   <script type="bower_components/bootstrap/dist/js/bootstrap.js"></script>
-</body>
+</body> <!--- cierre body-->
 </html>
