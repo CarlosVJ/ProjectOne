@@ -11,15 +11,38 @@
 </head><!-- cierre head-->
 
 <body>
+  <div class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container">
+
+        <div class="navbar-header">
+          <a href="#" class="navbar-brand">Up and Runing with bootstrap.</a>
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+        <ul class="nav navbar-nav navbar-right collapse navbar-collapse">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Reservation</a></li>
+          <li><a href="#" data-toggle="dropdown" >About <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Our Story</a></li>
+            <li><a href="#">Contact</a></li>
+            <li class="divider"></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Twitter</a></li>
+            <li><a href="#">Facebook</a></li>
+          </ul>
+          </li>
+        </ul>
+
+    </div>
+  </div>
+
   <!-- container  -->
   <div class="container">
-
-    <div class="row">
-      <div class="col-sm-12">
-        <h1>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi, soluta.</h1>
-      </div>
-    </div>
-
 
     <!-- row -->
     <div class="row well">
@@ -62,7 +85,7 @@
 
   <!-- scripts para llamar a los jquerys y bootstrap -->
   <script src="bower_components/jquery/dist/jquery.js"></script>
-  <script type="bower_components/bootstrap/dist/js/bootstrap.js"></script>
+  <script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
 </body> <!--- cierre body-->
 <footer>
   <div class="footer">
@@ -75,7 +98,7 @@
         </div>
         <div class="col-xs-6 col-sm-2 col-md-3 ">
           <h4>Links</h4>
-          <ul>
+          <ul class="list-unstyled">
             <li> <a href="#">Home</a></li>
             <li> <a href="#">Reservation</a></li>
             <li> <a href="#">Classroom</a></li>
@@ -84,7 +107,7 @@
         <div class="clearfix visible-xs"></div>
         <div class="col-xs-6 col-sm-2 col-md-3 ">
           <h4>Stay in Touch</h4>
-          <ul>
+          <ul class="list-unstyled">
             <li><a href="#">About</a></li>
             <li><a href="#">Contact</a></li>
             <li><a href="#">Blog</a></li>
@@ -94,7 +117,7 @@
         </div >
         <div class="col-xs-6 col-sm-4 col-md-3 ">
           <h4>Contact Us</h4>
-          <ul>
+          <ul class="list-unstyled">
             <li><i class="glyphicon glyphicon-globe"></i>  Calle 22 Oriente</li>
             <li><i class="glyphicon glyphicon-earphone"></i> (044) 2381209706</li>
             <li><i class="glyphicon glyphicon-envelope"></i><a href="#">   carlosmiguel.valentin@alumno</a></li>
